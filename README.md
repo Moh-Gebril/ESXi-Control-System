@@ -1,6 +1,10 @@
 # ESXi Control System
 
-ESXi Control System is a Python-based tool for centralized management of ESXi servers and virtual machines. It features secure SSH-based operations, orchestrated shutdowns, Docker support, and a modular design for easy extensibility, making it ideal for managing virtualized infrastructure efficiently and securely.
+ESXi Control System is a cutting-edge Python-based tool designed for centralized management of ESXi servers and their virtual machines (VMs). It is particularly suited for IT administrators, system engineers, and DevOps professionals who require efficient and secure management of their virtualized infrastructure.
+
+The system currently features a robust orchestration mechanism for the graceful shutdown of ESXi servers and their associated VMs. Built with modularity and extensibility in mind, the architecture allows seamless integration of additional functionalities like performance monitoring, network configuration, backup operations, and more.
+
+With support for Docker, detailed logging, and comprehensive unit testing, the tool ensures reliability and cross-platform compatibility. It also prioritizes security by leveraging SSH-based remote management and structured JSON configuration files for defining infrastructure setups.
 
 ## Features
 

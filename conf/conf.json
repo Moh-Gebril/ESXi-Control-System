@@ -1,0 +1,70 @@
+{
+    "esxi_servers": [
+        {
+            "name": "prod-esxi-01",
+            "ip": "192.168.1.100",
+            "username": "admin",
+            "password": "esxi_password1",
+            "vms": [
+                {
+                    "name": "web-server-01",
+                    "ip": "192.168.1.101",
+                    "username": "webadmin",
+                    "password": "web_password1"
+                },
+                {
+                    "name": "db-server-01",
+                    "ip": "192.168.1.102",
+                    "username": "dbadmin",
+                    "password": "db_password1"
+                }
+            ]
+        },
+        {
+            "name": "prod-esxi-02",
+            "ip": "192.168.1.200",
+            "username": "admin",
+            "password": "esxi_password2",
+            "vms": [
+                {
+                    "name": "app-server-01",
+                    "ip": "192.168.1.201",
+                    "username": "appadmin",
+                    "password": "app_password1"
+                },
+                {
+                    "name": "cache-server-01",
+                    "ip": "192.168.1.202",
+                    "username": "cacheadmin",
+                    "password": "cache_password1"
+                },
+                {
+                    "name": "monitoring-server",
+                    "ip": "192.168.1.203",
+                    "username": "monadmin",
+                    "password": "mon_password1"
+                }
+            ]
+        },
+        {
+            "name": "dev-esxi-01",
+            "ip": "192.168.2.100",
+            "username": "admin",
+            "password": "esxi_password3",
+            "vms": [
+                {
+                    "name": "test-web-01",
+                    "ip": "192.168.2.101",
+                    "username": "testadmin",
+                    "password": "test_password1"
+                },
+                {
+                    "name": "dev-env-01",
+                    "ip": "192.168.2.102",
+                    "username": "devadmin",
+                    "password": "dev_password1"
+                }
+            ]
+        }
+    ]
+}
